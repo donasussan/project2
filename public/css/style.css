@@ -1,0 +1,51 @@
+body{
+   background: rgb(29, 28, 28)
+}
+h2 {
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: block;
+    letter-spacing: 1px;
+  
+    width: 100%;
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    box-shadow:inset 0px 1px 1px fadeout(white, 95%);
+    border: 1px solid darken(grey, 5%);
+    
+  }
+  
+  input {
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid cyan;
+    padding-bottom: 10px;
+    color: black;
+    padding-left: 5px;
+  }
+  
+  .bton {
+    display: inline-block;
+    background: cyan;
+    border: 1px solid darken(cyan, 5%);
+    padding: .5em 2em;
+    color: white;
+    margin-right: .5em;
+    box-shadow: inset 0px 1px 0px fadeout(white, 80%); 
+    
+  }
+ .a {
+      color:white
+  }
+  .vertical {
+    border-left: 1px solid rgb(250, 248, 248);
+    height: 200px;
+    position:absolute;
+    left: 50%;}
+
